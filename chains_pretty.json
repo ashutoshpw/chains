@@ -5673,24 +5673,25 @@
   "chainId": 8029,
   "networkId": 8029
 }, {
-  "name": "GeneChain Adenine Testnet",
-  "chain": "GeneChain",
-  "rpc": ["https://rpc-testnet.genechain.io"],
-  "faucets": ["https://faucet.genechain.io"],
+  "name": "Shardeum Liberty 1.3",
+  "chain": "Shardeum",
+  "rpc": ["https://liberty10.shardeum.org/"],
+  "faucets": ["https://faucet.liberty10.shardeum.org"],
   "nativeCurrency": {
-    "name": "Testnet RNA",
-    "symbol": "tRNA",
+    "name": "Shardeum SHM",
+    "symbol": "SHM",
     "decimals": 18
   },
-  "infoURL": "https://scan-testnet.genechain.io/",
-  "shortName": "GeneChainAdn",
+  "infoURL": "https://docs.shardeum.org/",
+  "shortName": "ShardeumSHM",
   "chainId": 8080,
   "networkId": 8080,
   "explorers": [{
-    "name": "GeneChain Adenine Testnet Scan",
-    "url": "https://scan-testnet.genechain.io",
+    "name": "Sharedum Scan",
+    "url": "https://explorer.liberty10.shardeum.org",
     "standard": "EIP3091"
-  }]
+  }],
+  "redFlags": ["reusedChainId"]
 }, {
   "name": "Klaytn Mainnet Cypress",
   "chain": "KLAY",
@@ -5725,6 +5726,38 @@
   "shortName": "Kortho",
   "chainId": 8285,
   "networkId": 8285
+}, {
+  "name": "Toki Network",
+  "chain": "TOKI",
+  "rpc": ["https://mainnet.buildwithtoki.com/v0/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Toki",
+    "symbol": "TOKI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.buildwithtoki.com",
+  "shortName": "toki",
+  "chainId": 8654,
+  "networkId": 8654,
+  "icon": "toki",
+  "explorers": []
+}, {
+  "name": "Toki Testnet",
+  "chain": "TOKI",
+  "rpc": ["https://testnet.buildwithtoki.com/v0/rpc"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Toki",
+    "symbol": "TOKI",
+    "decimals": 18
+  },
+  "infoURL": "https://www.buildwithtoki.com",
+  "shortName": "toki-testnet",
+  "chainId": 8655,
+  "networkId": 8655,
+  "icon": "toki",
+  "explorers": []
 }, {
   "name": "TOOL Global Mainnet",
   "chain": "OLO",
@@ -6079,6 +6112,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Astra",
+  "chain": "Astra",
+  "rpc": ["https://rpc.astranaut.io", "https://rpc1.astranaut.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Astra",
+    "symbol": "ASA",
+    "decimals": 18
+  },
+  "infoURL": "https://astranaut.io",
+  "shortName": "astra",
+  "chainId": 11110,
+  "networkId": 11110,
+  "icon": "astra",
+  "explorers": [{
+    "name": "Astra EVM Explorer (Blockscout)",
+    "url": "https://explorer.astranaut.io",
+    "standard": "none",
+    "icon": "astra"
+  }, {
+    "name": "Astra PingPub Explorer",
+    "url": "https://ping.astranaut.io/astra",
+    "standard": "none",
+    "icon": "astra"
+  }]
+}, {
   "name": "WAGMI",
   "chain": "WAGMI",
   "icon": "wagmi",
@@ -6097,6 +6156,32 @@
     "name": "WAGMI Explorer",
     "url": "https://subnets.avax.network/wagmi/wagmi-chain-testnet/explorer",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Astra Testnet",
+  "chain": "Astra",
+  "rpc": ["https://rpc.astranaut.dev"],
+  "faucets": ["https://faucet.astranaut.dev"],
+  "nativeCurrency": {
+    "name": "test-Astra",
+    "symbol": "tASA",
+    "decimals": 18
+  },
+  "infoURL": "https://astranaut.io",
+  "shortName": "astra-testnet",
+  "chainId": 11115,
+  "networkId": 11115,
+  "icon": "astra",
+  "explorers": [{
+    "name": "Astra EVM Explorer",
+    "url": "https://explorer.astranaut.dev",
+    "standard": "EIP3091",
+    "icon": "astra"
+  }, {
+    "name": "Astra PingPub Explorer",
+    "url": "https://ping.astranaut.dev/astra",
+    "standard": "none",
+    "icon": "astra"
   }]
 }, {
   "name": "Shyft Testnet",
